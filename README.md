@@ -33,9 +33,6 @@ pip install opencv-python mediapipe numpy comtypes pycaw
 - The distance between these fingers is mapped to the system's volume range using `numpy.interp()`.
 - The volume is then updated using `SetMasterVolumeLevel()` from the Pycaw library.
 
-## Demo
-![Hand Gesture Volume Control](https://your-demo-image-link.png)
-
 ## Known Issues
 - Ensure `HandTrackingModule.py` is present in the same directory.
 - Hand tracking accuracy may vary in different lighting conditions.
